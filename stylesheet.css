@@ -1,0 +1,215 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+}
+
+.main {
+	margin-top: 50px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.nav {
+	display: inline;
+}
+
+.discrete-link a {
+	text-decoration: none;
+	color: black;
+}
+
+.discrete-link a:hover {
+	text-decoration: underline;
+}
+
+p, h1 {
+	font-family: Georgia;
+}
+
+h3 {
+	font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+.title-name h1 {
+	font-style: italic;
+}
+
+.text-center {
+	text-align: center;
+
+}
+
+.top-fix {
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-color: white;
+
+}
+
+.header-left-buttons {
+	position: absolute;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+.header-right-buttons {
+	position: absolute;
+	right: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.times-logo {
+	width: 185px;
+	height: 26px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.container {
+}
+
+.anchor {
+	position: relative;
+}
+
+.article-container {
+	margin: 1% 6%;
+}
+
+.article-head {
+
+}
+
+.article-title {
+}
+
+.article-stats {
+	position: relative;
+	z-index: 1;
+}
+
+.icon-sprite {
+	background-image: url("https://a1.nyt.com/assets/article/20170731-132454/images/sprite/sprite-no-repeat.svg");
+}
+
+.anchor {
+	position: relative;
+}
+.anchor li{
+	margin-right: 40px;
+}
+
+
+.anchor i {
+	position: absolute;
+	top: 0;
+	display: inline-block;
+}
+
+.sharetool-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: 1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.sharetool {
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+}
+
+.facebook {
+	background-position: -66px -54px;
+}
+
+.twitter {
+	background-position: -129px -297px;
+}
+
+.email {
+	background-position: -152px -21px;
+}
+
+.show-all {
+	background-position: -346px -243px;
+}
+
+.save {
+	background-position: -405px -210px;
+	width: 16px;
+}
+
+
+
+.stats-head-right {
+	position: absolute;
+	right: 0;
+}
+
+.illustration-picture img {
+	width: 100%;
+}
+
+.illustration-picture figcaption {
+	width: 60%;
+}
+
+figcaption p {
+	font-size: 0.875rem;
+
+}
+
+figcaption span, .content-footer {
+	font-size: 0.6875rem;
+}
+
+.article-content {
+
+}
+
+.article-content .text, .article-content .video {
+	margin-left: 10%;
+	width: 50%;
+}
+
+.small-rule {
+	width: 40%;
+}
+
+.bottom-bonuses {
+	margin: 1% 3%;
+}
+
+.recommended-category, .recommended-user {
+	width: 55%;
+	vertical-align: top;
+}
+
+.trending {
+	width: 35%;
+	vertical-align: top;
+	margin-left: 9%;
+}
+
+.side-size {
+
+}
+
+footer {
+}
